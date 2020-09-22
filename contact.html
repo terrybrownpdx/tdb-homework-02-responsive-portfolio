@@ -16,11 +16,15 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+    <style>
+      h1 {color: green;}
+    </style>
+
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Terry Brown</a>
+    <a class="navbar-brand" style="color: azure; background-color: green;" href="#">Terry Brown</a> 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,13 +33,13 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="#">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Index</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Index</a>
         </li>
       </ul>
     </div>
@@ -44,14 +48,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <h1>Contact</h1>
+        <h1><strong>Contact</strong></h1>
         <hr>
-        
+
         <form>
           <div class="form-group">
             <label for="Name">Name</label>
             <input type="text" class="form-control" id="Name">
-           </div>
+          </div>
           <div class="form-group">
             <label for="Email">Email</label>
             <input type="text" class="form-control" id="Email">
@@ -60,8 +64,8 @@
             <label for="Message">Message</label>
             <textarea class="form-control" id="Message" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>  <!-- Content here --> 
+          <button type="submit" class="btn btn-primary" style="color: azure; background-color: green;">Submit</button>
+                  </form> <!-- Content here -->
 
 
 
@@ -75,7 +79,7 @@
 
 
 
- 
+
   </div>
 </body>
 
